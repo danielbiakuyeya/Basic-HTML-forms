@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Learning HTML forms</title>
+    </head>
+    <body>
+       <h1>Hello, Forms!</h1> 
+       <form action="/form-handling-URL" method="post">
+           <fieldset cols="30" rows="10">
+                    <legend>ADD USER</legend>
+                    <div>
+                        <label for="First name">First Name</label>
+                        <input type="text" name="First_Name" id="firstName">
+                    </div>
+                    <div>
+                        <label for="Last name">Last Name</label>
+                        <input type="text" name="Last_Name" id="LastName">
+                    </div>
+                    <div>
+                        <label for="Last name">E-mail</label>
+                        <input type="text" name="E-mail" id="Email">
+                    </div>
+                    <div>
+                        <label for="Last name">E-mail</label>
+                        <input type="text" name="E-mail" id="Email">
+                    </div>
+                    <div>
+                        <label for="Role" >Role</label>
+                        <select name="Role" id="User_role_name" >
+                            <option value="Admin">Admin</option> 
+                            <option value="User">User</option> 
+                            <option value="Guest">Guest</option>   
+                        </select> 
+                    </div>
+                    <div>
+                        <label for="Expiration">Expiration</label>
+                        <input type="date" name="Expiration" id="Expiration">
+                    </div>
+                    <div>
+                        <label for="Bio">BIO</label>
+                        <textarea name="Bio" id="bio" cols="20" rows="5"></textarea> 
+                    </div> 
+                    <div>
+                        <button type="Submit" >ADD THIS PERSON</button>
+                        
+                    </div>
+           </fieldset>
+        </form>
+       
+    </body>
+</html>
